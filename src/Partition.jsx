@@ -12,7 +12,7 @@ const Partition = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const res = await fetch('http://localhost:5000/data', {
+    const res = await fetch('https://now-be.vercel.app/data', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ nums })
