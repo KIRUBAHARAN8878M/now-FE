@@ -47,6 +47,11 @@ const Partition = () => {
       {result !== null && (
         <p className="text-center">The minimum possible absolute difference is <span className=" fw-bold">{result}</span>.</p>
       )}
+
+      <div className="card-footer ">
+              EX:(input : 3,9,7,3 output : 2)  
+
+      </div>
     </div>
     </div>
     </div>
